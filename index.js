@@ -41,16 +41,17 @@ With all of these changes going on, we don't want to lose track of the actual, o
 
 /*
 Use the copy function below to do the following:
-    1. Receive two arguments: one for your new array and one for your original array
+    1. Receive one arguments: one for your new array and one for your original array
     2. Return the new array that holds an exact copy of the old array  
 */
 
-function copy(/*your code here*/){
-    /*your code here*/
+function copy(array){
+    return[..arr];
 }    
 
+const copyCat = copy(originalFlavors);
 
-
+console.log(copyCat);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
